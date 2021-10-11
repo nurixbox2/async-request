@@ -1,0 +1,36 @@
+#searchGiphy {
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 30%;
+}
+#btn {
+    background: blue;
+    width: 200px;
+    height: 53px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    border-radius: 10px;
+    margin: 20px 0 40px 25px;
+
+}
+#output {
+    width: 80%;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+    align-items: center;
+}
+
+#output h3 {
+    font-size: 20px;
+    text-align: center;
+    display: none;
+}
+iframe {
+    /* border: 2px solid black; */
+}
